@@ -19,23 +19,23 @@ Bu depo, Python ve OpenCV kullanılarak geliştirilen çeşitli görüntü işle
 
 | Kategori / Category                  | Dosya / File                                     | Açıklama / Description |
 |--------------------------------------|--------------------------------------------------|--------------------------|
-| 📌 Giriş / Intro                      | `01_template_intro.py`                           | Şablon dosya yapısı <br> Template project structure |
-| 🟩 Piksel İşlemleri / Pixel Ops      | `02_basic_pixel_operations.py`                   | Piksel erişimi, kanal ayırma <br> Pixel access, channel ops |
-| ✂️ Kırpma / Cropping                 | `03_cropping_extract_patch.py`                   | ROI seçimi, yama çıkarma <br> ROI selection and patch extraction |
-| ⚫ Gri Tonlama / Grayscale            | `04_grayscale_channel_operations.py`             | Gri ton dönüşümü <br> Grayscale conversion |
-| 🎨 Renk Kanalları / Color Filters    | `05_color_channel_filters.py`                    | Kanal bazlı filtreleme <br> Channel-wise filtering |
-| 🌫️ Bulanıklaştırma / Blurring       | `06_blurring_filters_mean_median_gaussian.py`    | Gürültü azaltma filtreleri <br> Denoising filters |
-| ⛔ Kenar Uzatma / Border Extension   | `07_border_extension_operations.py`              | Kenar oluşturma yöntemleri <br> Border types and padding |
-| 🖍️ Çizim / Drawing                   | `08_shape_and_text_drawing.py`                   | Şekil ve metin çizme <br> Drawing shapes and text |
-| ➕ Görüntü Aritmetiği / Arithmetic    | `09_image_arithmetic_operations.py`              | Görüntü toplama, çıkarma vs. <br> Addition, subtraction etc. |
-| 🔍 Yeniden Boyutlandırma / Resize    | `10_image_resizing_scaling.py`                   | Ölçekleme ve yeniden boyutlandırma <br> Scaling and resizing |
-| 🧱 Görüntü Piramitleri / Pyramids    | `11_image_pyramids.py`                           | Gaussian ve Laplacian piramitleri <br> Gaussian & Laplacian pyramids |
-| 🔧 Morfoloji / Morphology            | `12_morphological_operations.py`                 | Erozyon, genişleme, açma-kapama <br> Erosion, dilation, opening-closing |
-| 🔄 Döndürme / Rotation               | `13_image_rotation.py`                           | Açılı döndürme <br> Angle-based rotation |
-| 🎥 Kamera İşlemleri / Camera Input   | `15_camera_frame_capture_video_operations.py`    | Kamera görüntüsü alma <br> Capturing from camera |
-| 💾 Kayıt / Recording                 | `16_camera_video_recording.py`                   | Kamera ile video kaydı <br> Recording video from camera |
-| ⚖️ Eşikleme / Thresholding           | `17_thresholding_basic_methods.py`               | Sabit ve uyarlanabilir eşikleme <br> Static and adaptive thresholding |
-| 🔪 Kenar Algılama / Edge Detection   | `18_canny_edge_detection.py`                     | Canny algoritması ile kenar bulma <br> Canny edge detection |
+| 📌 Giriş / Intro                      | [`01_template_intro.py`](01_template_intro.py)                           | Şablon dosya yapısı <br> Template project structure |
+| 🟩 Piksel İşlemleri / Pixel Ops      | [`02_basic_pixel_operations.py`](02_basic_pixel_operations.py)                   | Piksel erişimi, kanal ayırma <br> Pixel access, channel ops |
+| ✂️ Kırpma / Cropping                 | [`03_cropping_extract_patch.py`](03_cropping_extract_patch.py)                   | ROI seçimi, yama çıkarma <br> ROI selection and patch extraction |
+| ⚫ Gri Tonlama / Grayscale            | [`04_grayscale_channel_operations.py`](04_grayscale_channel_operations.py)             | Gri ton dönüşümü <br> Grayscale conversion |
+| 🎨 Renk Kanalları / Color Filters    | [`05_color_channel_filters.py`](05_color_channel_filters.py)                    | Kanal bazlı filtreleme <br> Channel-wise filtering |
+| 🌫️ Bulanıklaştırma / Blurring       | [`06_blurring_filters_mean_median_gaussian.py`](06_blurring_filters_mean_median_gaussian.py)    | Gürültü azaltma filtreleri <br> Denoising filters |
+| ⛔ Kenar Uzatma / Border Extension   | [`07_border_extension_operations.py`](07_border_extension_operations.py)              | Kenar oluşturma yöntemleri <br> Border types and padding |
+| 🖍️ Çizim / Drawing                   | [`08_shape_and_text_drawing.py`](08_shape_and_text_drawing.py)                   | Şekil ve metin çizme <br> Drawing shapes and text |
+| ➕ Görüntü Aritmetiği / Arithmetic    | [`09_image_arithmetic_operations.py`](09_image_arithmetic_operations.py)              | Görüntü toplama, çıkarma vs. <br> Addition, subtraction etc. |
+| 🔍 Yeniden Boyutlandırma / Resize    | [`10_image_resizing_scaling.py`](10_image_resizing_scaling.py)                   | Ölçekleme ve yeniden boyutlandırma <br> Scaling and resizing |
+| 🧱 Görüntü Piramitleri / Pyramids    | [`11_image_pyramids.py`](11_image_pyramids.py)                           | Gaussian ve Laplacian piramitleri <br> Gaussian & Laplacian pyramids |
+| 🔧 Morfoloji / Morphology            | [`12_morphological_operations.py`](12_morphological_operations.py)                 | Erozyon, genişleme, açma-kapama <br> Erosion, dilation, opening-closing |
+| 🔄 Döndürme / Rotation               | [`13_image_rotation.py`](13_image_rotation.py)                           | Açılı döndürme <br> Angle-based rotation |
+| 🎥 Kamera İşlemleri / Camera Input   | [`15_camera_frame_capture_video_operations.py`](15_camera_frame_capture_video_operations.py)    | Kamera görüntüsü alma <br> Capturing from camera |
+| 💾 Kayıt / Recording                 | [`16_camera_video_recording.py`](16_camera_video_recording.py)                   | Kamera ile video kaydı <br> Recording video from camera |
+| ⚖️ Eşikleme / Thresholding           | [`17_thresholding_basic_methods.py`](17_thresholding_basic_methods.py)               | Sabit ve uyarlanabilir eşikleme <br> Static and adaptive thresholding |
+| 🔪 Kenar Algılama / Edge Detection   | [`18_canny_edge_detection.py`](18_canny_edge_detection.py)                     | Canny algoritması ile kenar bulma <br> Canny edge detection |
 
 > 🔄 Liste zamanla güncellenecektir.  
 > 🔄 This list will be updated over time.
@@ -52,8 +52,6 @@ Bu depo, Python ve OpenCV kullanılarak geliştirilen çeşitli görüntü işle
 >Reference for frequently used Numpy functions  
 >Sık kullanılan Numpy fonksiyonları için başvuru kılavuzu 
 
-- 📁 `resimler/`, `test_images/`, `TestImageDataSet_BSDS500/` → Test görüntü klasörleri / Test image folders
-
 ---
 
 ## 🚀 Kurulum ve Çalıştırma / Setup & Run
@@ -66,7 +64,7 @@ pip install opencv-python numpy matplotlib
 ---
 
 ## 📌 Katkı / Contribution
->This repo is under active development. Contributions and feedback are welcome.  
+>This repo is under active development. Contributions and feedback are welcome. <br>
 >Bu repo aktif olarak geliştirilmektedir. Geri bildirim ve katkılarınızı beklerim.
    
 
